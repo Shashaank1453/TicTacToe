@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+        <h1>TIC-TAC-TOE</h1>
+        <h1 id="status">Turn for X</h1>
+        <div id="winningLine"></div>
+        <div id="mainBox">
+            <div class="subBoxes border-left border-top"     id="subBox11"></div>
+            <div class="subBoxes border-top"                 id="subBox12"></div>
+            <div class="subBoxes border-top border-right"    id="subBox13"></div>
+            <div class="subBoxes border-left"                id="subBox21"></div>
+            <div class="subBoxes"                            id="subBox22"></div>
+            <div class="subBoxes border-right"               id="subBox23"></div>
+            <div class="subBoxes border-bottom border-left"  id="subBox31"></div>
+            <div class="subBoxes border-bottom"              id="subBox32"></div>
+            <div class="subBoxes border-bottom border-right" id="subBox33"></div>
+        </div>
+        <button id="reset">Reset</button>
+    <script src="script.js"></script>
+</body>
+</html>

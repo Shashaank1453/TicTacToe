@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+}
+h1{
+    position: absolute; top:2vmax; left:21vmax;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size:60px;
+    display: inline-block;
+}
+#status{
+    position: relative;
+    top:45vmin;left: 50vmax;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size:60px;
+}
+#winningLine{
+    z-index: 8;
+    height: 0vmin;width: 3px;
+    background-color: rgb(255, 0, 0);
+    position:absolute; top:27vmin; left: 40vmin; 
+    transform: translate(0vmin,0vmin) rotate(0deg);
+    transition: all 1s;
+}
+#reset{
+    border: none;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    position: absolute;
+    top: 60vmin;left:50vmax;
+}
+#mainBox{
+    height: 60vmin; width: 60vmin;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: absolute;
+    top: 20vmin; left: 40vmin;
+}
+.subBoxes{
+    display: inline;
+    width: 20vmin;
+    height: 20vmin;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 15vmin;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.subBoxes:hover{
+background-color: cyan;
+cursor:pointer;
+}
+.border-top{border-top:0;}
+.border-bottom{border-bottom:0;}
+.border-left{border-left:0;}
+.border-right{border-right:0;}
